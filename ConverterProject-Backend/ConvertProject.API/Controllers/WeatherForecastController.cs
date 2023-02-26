@@ -1,19 +1,20 @@
 using ConvertProject.API.Model;
+using ConvertProject.Logic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConvertProject.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("")]     
+    public class ConversionController : ControllerBase 
     {
         
 
         [HttpGet]
-        [Route("/Test")]
-        public string ReturnResponse()
+        [Route("/conversion/ConvertCToF/{Unit}")]
+        public string ReturnResponse(double Unit)
         {
-            return "Hello World!";
+            return ConversionLogic.ConvertCtoF(Unit).ToString();             
         }
     }
 }
