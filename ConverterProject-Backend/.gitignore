@@ -603,7 +603,8 @@ FodyWeavers.xsd
 # Ignore all local history of files
 .history
 .ionide
-../ConvertProject.Logic/bin
-../ConvertProject.Logic/obj
-
+../ConvertProject.Logic/bin/
+../ConvertProject.Logic/obj/
+../ConvertProject.test/bin/
+../ConvertProject.test/obj/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode  
