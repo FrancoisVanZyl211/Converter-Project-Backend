@@ -607,4 +607,9 @@ FodyWeavers.xsd
 ../ConvertProject.Logic/obj/
 ../ConvertProject.test/bin/
 ../ConvertProject.test/obj/
+
+.vscode
+.vs
+
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode  
